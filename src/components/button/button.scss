@@ -1,0 +1,54 @@
+.button {
+    width: 100%;
+    max-width: 350px;
+    height:auto;
+    padding: 14px 20px 15px;
+    margin: 15px 5px;
+
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+    border: none;
+    border-radius: 22px;
+    outline: none;
+
+    &:hover{
+        opacity: 0.7;
+    }
+
+    &--outline {     
+        position: relative;  
+        color: rgba(188, 156, 255, 1);
+        background: rgba(255, 255, 255, 1);
+        border: none;
+        
+        &::after{
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+
+            z-index: -1;
+            border-radius: 24px;
+            background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        }
+
+        &:hover{            
+            color: rgba(188, 156, 255, 0.7);
+            opacity: 1;
+
+            &::after{
+                opacity: 0.7;
+            }
+        }
+    }   
+}
