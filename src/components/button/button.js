@@ -6,10 +6,10 @@ import './button.scss';
 export default class Button extends Component {
 
     render() {
-        const {buttonClassName} = this.props;
+        const {buttonClassName, type} = this.props;
 
         return (
-            <button className={buttonClassName}>
+            <button className={buttonClassName} type={type}>
                 {this.props.children}
             </button>
         );
