@@ -26,5 +26,7 @@ yarn-error.log*
 src/index.js
 src/components/app
 
+src/components/error-button
+
 
 .vscode/settings.json
