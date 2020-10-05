@@ -1,0 +1,10 @@
+.room-list{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
