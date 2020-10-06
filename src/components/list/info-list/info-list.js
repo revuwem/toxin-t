@@ -22,11 +22,13 @@ const InfoListItem = ({ info }) => {
     return (
         <li className="info-list__item">
             <div>
-                <img src={icon} alt=""/>
+                <img src={icon} alt="" />
             </div>
             <div>
-                <h3>{name}</h3>
-                <p>{description}</p>
+                <p>
+                    <span><b>{name}</b></span>
+                    {description}
+                </p>
             </div>
 
         </li>
