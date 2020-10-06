@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../button/button';
 
+import '../../form.scss';
 import './search-room-form.scss';
 
 export default class SearchRoomForm extends Component {
