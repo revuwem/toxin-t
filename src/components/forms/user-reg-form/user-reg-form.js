@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Button from '../button';
+import Button from '../../button';
 
-import '../../form.scss';
+import '../../../form.scss';
 import './user-reg-form.scss';
 
 export default class UserRegForm extends Component {
