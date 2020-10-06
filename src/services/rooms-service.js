@@ -8,17 +8,25 @@ export default class RoomsService {
             prestige: 'lux',
             price: 9900,
             rating: 5,
-            image: '/images/rooms/image-1.png',
+            tileImage: '/images/rooms/1/image.png',
+            images: [
+                '/images/rooms/1/image-1.png',
+                '/images/rooms/1/image-2.png',
+                '/images/rooms/1/image-3.png'
+            ],
             info: [
                 {
+                    icon: '/images/icons/emoticon.svg',
                     name: 'Комфорт',
                     description: 'Шумопоглощающие стены'
                 },
                 {
+                    icon: '/images/icons/location.svg',
                     name: 'Удобство',
                     description: 'Окно в каждой спальне'
                 },
                 {
+                    icon: '/images/icons/whatshot.svg',
                     name: 'Уют',
                     description: 'Номер оснащён камином'
                 }
@@ -35,14 +43,34 @@ export default class RoomsService {
                 normal: 0,
                 bad: 0
             },
-            responses: []
+            responses: [
+                {
+                    author: 'Мурад Сарафанов',
+                    userpic: '/images/userpics/murad.png',
+                    date: '06.10.2020',
+                    text: 'Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.',
+                    likes: 0
+                },
+                {
+                    author: 'Патрисия Стёклышкова',
+                    userpic: '/images/userpics/patricia.png',
+                    date: '01.10.2020',
+                    text: 'Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать, каждый день новое блюдо и десерт как комплимент',
+                    likes: 4
+                }
+            ]
         },
         {
             id: 2,
             prestige: '',
             price: 8900,
             rating: 4,
-            image: '/images/rooms/image-2.png',
+            tileImage: '/images/rooms/2/image.png',
+            images: [
+                '/images/rooms/2/image-1.png',
+                '/images/rooms/2/image-2.png',
+                '/images/rooms/2/image-3.png'
+            ],
             info: [
                 {
                     name: 'Комфорт',
@@ -81,7 +109,12 @@ export default class RoomsService {
             prestige: '',
             price: 7500,
             rating: 5,
-            image: '/images/rooms/image-3.png',
+            tileImage: '/images/rooms/3/image.png',
+            images: [
+                '/images/rooms/3/image-1.png',
+                '/images/rooms/3/image-2.png',
+                '/images/rooms/3/image-3.png'
+            ],
             info: [
                 {
                     name: 'Комфорт',
@@ -115,7 +148,12 @@ export default class RoomsService {
             prestige: 'lux',
             price: 8300,
             rating: 4,
-            image: '/images/rooms/image-4.png',
+            tileImage: '/images/rooms/4/image.png',
+            images: [
+                '/images/rooms/4/image-1.png',
+                '/images/rooms/4/image-2.png',
+                '/images/rooms/4/image-3.png'
+            ],
             info: [
                 {
                     name: 'Комфорт',
@@ -149,7 +187,12 @@ export default class RoomsService {
             prestige: '',
             price: 6700,
             rating: 3,
-            image: '/images/rooms/image.png',
+            tileImage: '/images/rooms/5/image.png',
+            images: [
+                '/images/rooms/5/image-1.png',
+                '/images/rooms/5/image-2.png',
+                '/images/rooms/5/image-3.png'
+            ],
             info: [
                 {
                     name: 'Комфорт',
