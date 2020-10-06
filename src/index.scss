@@ -37,3 +37,26 @@ nav{
 ul{
     list-style: none;
 }
+
+.page{
+    width: 100%;
+    height: auto;  
+    
+    &__wrapper{
+        width: 100%;
+        height: auto;
+
+        padding: 70px 140px;
+        margin: 0;
+    }
+
+    &__inner{
+        margin: 0;
+        margin-bottom: 30px;
+        display: flex;
+
+        article{
+            flex: 0 0 50%;
+        }
+    }
+}
