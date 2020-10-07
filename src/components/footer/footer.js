@@ -36,9 +36,9 @@ const Footer = () => {
                 <div className="main-footer__inner">
                     <h3>Подписка</h3>
                     <p>Получайте специальные предложения и новости сервиса</p>
-                    <form className="form">
+                    <form className="form form--plain">
                         <input type="text" id="subcribe-email" name="subcribe-email" className="form__input" placeholder="Email" />
-                        <button type="submit">Подписаться</button>
+                        <button type="submit" className="visually-hidden">Подписаться</button>
                     </form>
                 </div>
             </div>
