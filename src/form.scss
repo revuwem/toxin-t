@@ -1,5 +1,5 @@
 .form {
-    width: auto;
+    width: 100%;
     max-width: 380px;
     height: auto;
     padding: 40px 30px 30px;
@@ -77,9 +77,10 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
 
             &>label{
-                flex: 0 0 150px;
+                flex: 0 0 45%;
             }
         }
     }
