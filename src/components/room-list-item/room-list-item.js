@@ -9,7 +9,7 @@ const RoomListItem = ({room}) => {
 
     return (
         <li className="room-list-item">
-            <div className="room-list-item__gallery">
+            <div className="room-list-item__tile">
                 <img src={tileImage} alt="" />
             </div>
             <div className="room-list-item__wrapper">
