@@ -27,6 +27,8 @@ src/index.js
 src/components/app
 
 src/components/error-button
+src/components/gallery
+src/components/pages/details-page
 
 
 .vscode/settings.json
