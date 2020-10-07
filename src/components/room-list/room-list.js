@@ -1,11 +1,18 @@
 import React from 'react';
 
+import RoomListItem from '../room-list-item';
+
 import './room-list.scss';
 
-const RoomList = () => {
+const RoomList = ({rooms}) => {
+
+    const roomsItems = rooms.map((item) => (
+        <RoomListItem room={item} />
+    ));
+
     return (
         <ul className="room-list">
-                   
+            {roomsItems} 
         </ul>
     );
 }
