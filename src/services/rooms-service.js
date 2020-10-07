@@ -2,7 +2,7 @@
 export default class RoomsService {
 
 
-    data = [
+    _data = [
         {
             id: 1,
             prestige: 'lux',
@@ -224,6 +224,6 @@ export default class RoomsService {
     ];
 
     getData(){
-       return this.data;
+       return this._data;
     }
 }
