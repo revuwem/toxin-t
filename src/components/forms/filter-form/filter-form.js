@@ -39,7 +39,7 @@ export default class FilterForm extends Component {
     render() {
         return (
             <form action="" className="form form--plain" id="filterForm" onSubmit={this.handleFormSubmit}>
-                <h2>Фильтр</h2>
+                <h2 className="visually-hidden">Фильтр</h2>
                 <label htmlFor="period" className="form__label">
                     Даты пребывания в отеле
                     <input type="date" name="period" id="period" className="form__input" onChange={this.handleInputChange}/>
@@ -53,7 +53,7 @@ export default class FilterForm extends Component {
                     </select>
                 </label>
 
-                <h3>Цена</h3>
+                <h3 className="visually-hidden">Цена</h3>
                 <div className="form__inner form__inner--group">
                     <label htmlFor="priceStart" className="form__label">
                         От
