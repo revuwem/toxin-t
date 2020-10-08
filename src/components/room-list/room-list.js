@@ -7,7 +7,7 @@ import './room-list.scss';
 const RoomList = ({rooms}) => {
 
     const roomsItems = rooms.map((item) => (
-        <RoomListItem room={item} />
+        <RoomListItem key={item.id} room={item} />
     ));
 
     return (
